@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📊 dashboarShadcnui
 
-## Getting Started
+![GitHub repo size](https://img.shields.io/github/repo-size/kaua-stack/dashboarShadcnui)
+![GitHub language count](https://img.shields.io/github/languages/count/kaua-stack/dashboarShadcnui)
 
-First, run the development server:
+
+---
+
+## 📝 Descrição
+
+Este projeto é um painel (dashboard) desenvolvido em **React.js** utilizando a biblioteca de componentes **shadcn/ui**. A proposta é criar uma interface moderna, clean, responsiva e com foco em visualização de dados e organização de conteúdos administrativos.
+
+> 🎯 Ideal para aplicações internas, áreas administrativas e sistemas de gerenciamento.
+
+---
+
+## 🚀 Acesse o Projeto
+
+👉 [Clique aqui para ver o projeto online](https://kaua-stack.github.io/dashboarShadcnui/)  
+*(Se estiver publicado via GitHub Pages ou Vercel, substitua aqui com o link correto)*
+
+---
+
+## 🔧 Tecnologias Utilizadas
+
+- React.js  
+- shadcn/ui  
+- Tailwind CSS  
+- Vite (para build e desenvolvimento rápido)  
+- TypeScript *(se estiver usando)*
+
+---
+
+## 🎯 Funcionalidades
+
+- Layout de painel administrativo moderno  
+- Componentes reutilizáveis com shadcn/ui  
+- Design responsivo e adaptado para diferentes tamanhos de tela  
+- Estrutura inicial para integração com dados dinâmicos  
+
+---
+
+## 🛠️ Como Rodar Localmente
 
 ```bash
+# Clone o repositório
+git clone https://github.com/kaua-stack/dashboarShadcnui.git
+
+# Acesse a pasta
+cd dashboarShadcnui
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
